@@ -22,6 +22,7 @@ The project was developed as part of a Kaggle competition, focusing on **feature
    - Area-based analysis of incidents
 
 4. **Modeling**
+   - Applied Linear Discriminant Analysis (LDA) as the primary classification method
    - Applied classification algorithms from **scikit-learn**  
    - Evaluated predictive performance on test data
 
@@ -29,6 +30,7 @@ The project was developed as part of a Kaggle competition, focusing on **feature
 
 ## Key Insights
 
+- LDA performed well in separating crime categories when combined with TF-IDF text features and scaled numeric data.
 - Crimes are **fairly evenly distributed across months**, except the 31st (naturally fewer incidents).  
 - **Male victims** are slightly more common than female victims, though the gap isn’t large.  
 - Negative/invalid ages in the dataset required correction.  
